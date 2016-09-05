@@ -11,7 +11,7 @@ A library the helps in simple telephony tasks in Android like making/interceptin
 
 #### Sending SMS
 To simple send a message to a recipient, you can use the static method
-```
+```java
 SmsSender.sendSms(to, msg);
 ```
 The arguments `to` and `msg` both must be in form of Strings. If `msg` is greater than 140 characters, it won't work.
