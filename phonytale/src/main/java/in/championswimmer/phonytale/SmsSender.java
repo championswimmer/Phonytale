@@ -172,8 +172,4 @@ public class SmsSender {
         Log.d(TAG, "getSmsSendObserverClass: " + smsSendObserverClass.toString());
 
     }
-
-    public static class AAA extends Object {
-
-    }
 }

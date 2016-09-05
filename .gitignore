@@ -1,4 +1,5 @@
 *.iml
+/javadocs
 .DS_Store
 /captures
 ### Android template
