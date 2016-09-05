@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">phonytale</string>
+    <string name="accessiblity_desc">This service records USSD messages.</string>
+</resources>
