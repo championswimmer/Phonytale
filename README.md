@@ -23,3 +23,7 @@ The arguments `to` and `msg` both must be in form of Strings. If `msg` is greate
 #### Sending USSD Codes
 
 #### Intercepting USSD Responses
+
+## Documentation
+
+You can checkout the full [javadocs for Phonytale](http://championswimmer.in/Phonytale/)
