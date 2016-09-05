@@ -23,7 +23,7 @@ of the app from the user, to make sure the features work.
 
 ### Calls
 
-#### Making Calls
+##### Making Calls
 
 ### SMS
 
