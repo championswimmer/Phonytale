@@ -169,7 +169,7 @@ public class SmsSender {
 
     public static void setSmsSendObserverClass(Class<? extends Service> smsSendObserverClass) {
         SmsSender.smsSendObserverClass = smsSendObserverClass;
-        Log.d(TAG, "getSmsSendObserverClass: " + smsSendObserverClass.toString());
+        Log.d(TAG, "setSmsSendObserverClass: " + smsSendObserverClass.toString());
 
     }
 }

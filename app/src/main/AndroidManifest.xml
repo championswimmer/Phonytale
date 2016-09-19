@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".examples.sms.SMSActivity"></activity>
+        <activity android:name=".examples.sms.SMSActivity" />
+        <activity android:name=".examples.call.CallActivity" />
+        <activity android:name=".examples.ussd.UssdActivity"></activity>
     </application>
 
 </manifest>

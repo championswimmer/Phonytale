@@ -34,6 +34,16 @@ SmsSender.sendSms(to, msg);
 ```
 The arguments `to` and `msg` both must be in form of Strings. If `msg` is greater than 140 characters, it won't work.
 
+To send an SMS and observe for **_sent_** and **_delivered_** results, use this instead
+```java
+        SmsSender.sendSms("+919090909090", 
+            "Hello! Howdy?", 
+            DeliverObserverService.class, SMSActivity.this);
+```
+`DeliverObserverService.class` is your custom Service class that gets a start command when the SMS is sent 
+and delivered (two separate start commands)
+The service received intent with action _"in.championswimmer.phonytale.SmsSender.ACTION_SMS_SENT"_ and
+_"in.championswimmer.phonytale.SmsSender.ACTION_SMS_DELIVERED"_ respectively. 
 #### Receiving SMS
 
 ### USSD
